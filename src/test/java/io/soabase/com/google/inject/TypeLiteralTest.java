@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.inject;
+package io.soabase.com.google.inject;
 
-import static com.google.inject.Asserts.assertEqualsBothWays;
-import static com.google.inject.Asserts.assertNotSerializable;
+import static io.soabase.com.google.inject.Asserts.assertEqualsBothWays;
+import static io.soabase.com.google.inject.Asserts.assertNotSerializable;
 
-import com.google.inject.util.Types;
+import io.soabase.com.google.inject.util.Types;
 
 import junit.framework.TestCase;
 
@@ -109,7 +109,7 @@ public class TypeLiteralTest extends TestCase {
     } catch (IllegalArgumentException expected) {
       Asserts.assertContains(expected.getMessage(), "Expected a Class, ParameterizedType, or "
           + "GenericArrayType, but <? extends java.lang.Runnable> is of type "
-          + "com.google.inject.internal.MoreTypes$WildcardTypeImpl");
+          + "io.soabase.com.google.inject.internal.MoreTypes$WildcardTypeImpl");
     }
   }
 

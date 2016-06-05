@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.inject;
+package io.soabase.com.google.inject;
 
-import com.google.inject.internal.MoreTypes;
-import com.google.inject.util.Types;
+import io.soabase.com.google.inject.internal.MoreTypes;
+import io.soabase.com.google.inject.util.Types;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.GenericArrayType;
@@ -29,9 +29,9 @@ import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 import java.util.List;
 
-import static com.google.inject.Checks.checkArgument;
-import static com.google.inject.Checks.checkNotNull;
-import static com.google.inject.internal.MoreTypes.canonicalize;
+import static io.soabase.com.google.inject.Checks.checkArgument;
+import static io.soabase.com.google.inject.Checks.checkNotNull;
+import static io.soabase.com.google.inject.internal.MoreTypes.canonicalize;
 
 /**
  * Represents a generic type {@code T}. Java doesn't yet provide a way to

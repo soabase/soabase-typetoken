@@ -15,12 +15,12 @@
  */
 
 
-package com.google.inject.util;
+package io.soabase.com.google.inject.util;
 
-import com.google.inject.internal.MoreTypes;
-import com.google.inject.internal.MoreTypes.GenericArrayTypeImpl;
-import com.google.inject.internal.MoreTypes.ParameterizedTypeImpl;
-import com.google.inject.internal.MoreTypes.WildcardTypeImpl;
+import io.soabase.com.google.inject.internal.MoreTypes;
+import io.soabase.com.google.inject.internal.MoreTypes.GenericArrayTypeImpl;
+import io.soabase.com.google.inject.internal.MoreTypes.ParameterizedTypeImpl;
+import io.soabase.com.google.inject.internal.MoreTypes.WildcardTypeImpl;
 
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.ParameterizedType;

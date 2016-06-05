@@ -1,4 +1,4 @@
-package com.google.inject;
+package io.soabase.com.google.inject;
 
 public class Checks
 {

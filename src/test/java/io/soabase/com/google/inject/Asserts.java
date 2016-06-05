@@ -15,7 +15,7 @@
  */
 
 
-package com.google.inject;
+package io.soabase.com.google.inject;
 
 import junit.framework.Assert;
 import java.io.ByteArrayInputStream;
@@ -24,8 +24,6 @@ import java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
 
 import static junit.framework.Assert.*;
 

@@ -15,7 +15,7 @@
  */
 
 
-package com.google.inject.internal;
+package io.soabase.com.google.inject.internal;
 
 import java.io.Serializable;
 import java.lang.reflect.Array;
@@ -29,8 +29,8 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
-import static com.google.inject.Checks.checkArgument;
-import static com.google.inject.Checks.checkNotNull;
+import static io.soabase.com.google.inject.Checks.checkArgument;
+import static io.soabase.com.google.inject.Checks.checkNotNull;
 
 /**
  * Static methods for working with types that we aren't publishing in the
